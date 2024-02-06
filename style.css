@@ -1,0 +1,93 @@
+:root{
+    --content:1rem;
+    --sub-heading:1.2rem;
+    --heading:1.5rem;
+}
+a{
+    text-decoration: none;
+    height: fit-content;
+}
+section{
+    padding: 2.5rem 0;
+}
+.table-left-border {
+    border-left: 1px solid blue; /* Choose your border color */
+}
+.row-top-border{
+    border-top: 1px solid blue; /* Choose your border color */
+}
+.exp-lb{
+    border-left:3px solid blue ;
+}
+.social-icon{
+    width: 40px !important;
+    height: 40px;
+    border-radius: 50%;
+    margin: 1rem 0;
+}
+.social-icon:not(:last-child){
+    margin-right: 1.2rem;
+}
+.c-cont{
+    width: 90%;
+}
+.pLang{
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+    background-color: rgba(172, 255, 47, 0.258);
+    padding: 0.2rem 0.5rem;
+    margin-bottom: .2rem;
+    color: green;
+}
+.dbLang{
+    border: 1px solid orangered;
+    border-radius: 5px;
+    background-color: rgba(255, 68, 0, 0.347);
+    padding: 0.2rem 0.5rem;
+    margin: .2rem;
+
+    color: red;
+
+}
+.tools{
+    border: 1px solid rgb(8, 0, 255);
+    border-radius: 5px;
+    background-color: rgba(0, 13, 255, 0.336);
+    padding: 0.2rem 0.5rem;
+    margin: .2rem;
+
+    color: rgb(17, 0, 255);
+
+}
+.fWorks{
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.231);
+    padding: 0.2rem 0.5rem;
+    margin: .2rem;
+    color: red;
+
+
+}
+.skills{
+    border: 1px solid rgb(0, 234, 255);
+    border-radius: 5px;
+    background-color: rgba(92, 181, 196, 0.231);
+    padding: 0.2rem 0.5rem;
+    margin: .2rem;
+    color: skyblue;
+}
+.git{
+    width: 47px;
+    height: 47px;
+}
+
+
+/* .card-text{
+min-height: 200px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: .3rem;
+    max-height: 200px;
+    overflow-y: scroll;
+} */
