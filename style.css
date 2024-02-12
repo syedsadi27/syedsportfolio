@@ -10,6 +10,9 @@ a{
 section{
     padding: 2.5rem 0;
 }
+.hero{
+    background: #ada69d;
+}
 .table-left-border {
     border-left: 1px solid blue; /* Choose your border color */
 }
