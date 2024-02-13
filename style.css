@@ -2,6 +2,7 @@
     --content:1rem;
     --sub-heading:1.2rem;
     --heading:1.5rem;
+    --theme-primary:ada69d;
 }
 a{
     text-decoration: none;
@@ -9,6 +10,9 @@ a{
 }
 section{
     padding: 2.5rem 0;
+}
+.hero{
+    background: radial-gradient(#ada69d,#ada69d7e,#ada69d25);
 }
 .table-left-border {
     border-left: 1px solid blue; /* Choose your border color */
@@ -72,16 +76,36 @@ section{
 
 
 .git{
-    width: 47px;
-    height: 47px;
+    width: 30px;
+    height: 30px;
+    margin-right: .4rem;
+}
+
+.theme-border{
+    border: 1px solid rgba(211, 211, 211, 0.498);
+    border-radius: 5px;
+}
+.theme-bg{
+    background: #ada69d;
 }
 
 
-/* .card-text{
-min-height: 200px;
-    border: 1px solid lightgray;
-    border-radius: 5px;
-    padding: .3rem;
-    max-height: 200px;
-    overflow-y: scroll;
-} */
+.card-text{
+
+    max-height: 220px;
+    overflow-y: auto;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+    ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
